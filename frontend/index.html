@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilizzh Studio 6.0 — Cloud Media Flow & Video Production Agency</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/static/tailwind-config.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- React & ReactDOM (production builds, pinned) -->
+    <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            background-color: #06070A;
+            color: #F3F4F6;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .glass-panel {
+            background: rgba(18, 20, 28, 0.80);
+            backdrop-filter: blur(18px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .glass-card:hover {
+            border-color: rgba(59, 130, 246, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 14px 35px -10px rgba(59, 130, 246, 0.2);
+        }
+        .glow-blue {
+            box-shadow: 0 0 45px -10px rgba(59, 130, 246, 0.35);
+        }
+        .glow-emerald {
+            box-shadow: 0 0 45px -10px rgba(16, 185, 129, 0.35);
+        }
+        .glow-purple {
+            box-shadow: 0 0 45px -10px rgba(139, 92, 246, 0.35);
+        }
+        .watermark-overlay {
+            background-image: repeating-linear-gradient(
+                -45deg,
+                rgba(239, 68, 68, 0.18),
+                rgba(239, 68, 68, 0.18) 120px,
+                transparent 120px,
+                transparent 240px
+            );
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #06070A;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.16);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-gray-100 min-h-screen selection:bg-blue-500 selection:text-white">
+    <div id="root"></div>
+
+
+    <!-- Compiled from frontend-src/app.jsx (no in-browser compiling, no inline scripts) -->
+    <script src="/static/app.js"></script>
+</body></html>
