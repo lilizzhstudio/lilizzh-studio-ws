@@ -1,0 +1,12 @@
+{
+  "name": "lilizzh-studio-frontend",
+  "private": true,
+  "description": "Only needed if you edit the website source (frontend-src/app.jsx). The compiled frontend/app.js is already included.",
+  "scripts": {
+    "build": "esbuild frontend-src/app.jsx --outfile=frontend/app.js --target=es2019 --jsx=transform --log-level=warning",
+    "watch": "esbuild frontend-src/app.jsx --outfile=frontend/app.js --target=es2019 --jsx=transform --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

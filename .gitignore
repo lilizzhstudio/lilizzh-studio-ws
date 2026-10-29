@@ -1,0 +1,15 @@
+# Secrets and private data - never commit
+.env
+.env.*
+!.env.example
+data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python / Node
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
