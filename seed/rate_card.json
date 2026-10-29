@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rate-short",
+    "type": "Short / Reel",
+    "description": "Vertical 9:16 high-retention reel with dynamic hooks, kinetic captions, & SFX.",
+    "clientPriceDefault": 30,
+    "editorPayoutDefault": 12,
+    "clientPriceRangeUSD": "$25 - $35",
+    "clientPriceRangeINR": "₹2,000 - ₹2,900",
+    "editorPayoutRangeUSD": "$10 - $15",
+    "editorPayoutRangeINR": "₹800 - ₹1,200",
+    "profitRangeUSD": "$15 - $20",
+    "profitRangeINR": "₹1,200 - ₹1,700",
+    "typicalTurnaround": "< 18h"
+  },
+  {
+    "id": "rate-batch",
+    "type": "Batch of 10 Short / Reel",
+    "description": "Full monthly content engine package (10x vertical cuts with branding & revisions).",
+    "clientPriceDefault": 275,
+    "editorPayoutDefault": 135,
+    "clientPriceRangeUSD": "$250 - $300",
+    "clientPriceRangeINR": "₹21,000 - ₹25,000",
+    "editorPayoutRangeUSD": "$120 - $150",
+    "editorPayoutRangeINR": "₹10,000 - ₹12,000",
+    "profitRangeUSD": "$130 - $150",
+    "profitRangeINR": "₹11,000 - ₹12,000",
+    "typicalTurnaround": "3 - 5 Days"
+  },
+  {
+    "id": "rate-long",
+    "type": "Long video",
+    "description": "YouTube 4K documentary, multi-cam podcast, narrative pacing, & DaVinci Resolve color grade.",
+    "clientPriceDefault": 160,
+    "editorPayoutDefault": 65,
+    "clientPriceRangeUSD": "$120 - $200",
+    "clientPriceRangeINR": "₹10,000 - ₹16,000",
+    "editorPayoutRangeUSD": "$50 - $80",
+    "editorPayoutRangeINR": "₹4,000 - ₹6,000",
+    "profitRangeUSD": "$70 - $120",
+    "profitRangeINR": "₹6,000 - ₹10,000",
+    "typicalTurnaround": "< 36h"
+  }
+]
